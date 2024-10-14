@@ -1,0 +1,31 @@
+#myVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    width: 100%;
+    height: auto;
+    }
+
+.navbar-logo img {
+    width: 100px;
+    height: 100px;
+    z-index: 0;
+}
+
+.navigation {
+    display: inline-block;
+}
+
+.ul li {
+    width: 33%;
+    float: center;
+}
+
+.container {
+    z-index: 1;
+}
+
+.navbar-buttons li {
+    list-style-type: none;
+}

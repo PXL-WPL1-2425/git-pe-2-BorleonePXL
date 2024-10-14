@@ -29,3 +29,10 @@
 .navbar-buttons li {
     list-style-type: none;
 }
+#sign-in-btn button{
+    border-radius: 1em;
+    color: black;
+    background-color:red;
+    height: 30px;
+    
+}

@@ -6,40 +6,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riot Games</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
     <header>
         <div class="container-fluid no-left-padding no-right-padding welcome-text video-content">
             <video autoplay muted loop id="myVideo" >
-                <source src="./git-pe-2-BorleonePXL/assets/trophystraight-effect-full.mp4" type="video/mp4">
+                <source src="./assets/trophystraight-effect-full.mp4" type="video/mp4">
             </video>
             <div class="container">
                 <div class="header">
                     <div class="row align-items-center">
-                        <div class="col-md-3">
-                            <div class="navbar-logo">
-                                <div class="navbar-brand mx-auto">
-                                    <a href="./taak2.html">
-                                        <img src="./assets/riot-games-logo.svg">
-                                    </a>
-                                </div>
-                            </div>
+                        <!-- First column: Logo -->
+                        <div class="col-md-3 d-flex align-items-center">
+                            <a href="./taak2.html" class="navbar-brand mx-auto">
+                                <img src="./assets/riot-games-logo.svg" alt="Riot Games Logo" style="max-width: 100px;">
+                            </a>
                         </div>
+
+                        <!-- Second column: Navbar list items -->
                         <div class="col-md-6">
                             <nav class="navbar-buttons">
-                                <div class="navigation">
-                                    <ul>
-                                        <li><a href="">Who We Are</a></li>
-                                        <li><a href="">Work With us</a></li>
-                                        <li><a href="">News</a></li>
-                                    </ul>
-                                </div>
+                                <ul class="nav justify-content-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Who We Are</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Work With Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">News</a>
+                                    </li>
+                                </ul>
                             </nav>
                         </div>
-                        <div class="login-button">
-                            <button type="button" data-toggle="collapse" aria-expanded="false"
-                                aria-label="Toggle navigation">
+
+                        <!-- Third column: Sign-in button -->
+                        <div class="col-md-3 text-right" id="sign-in-btn">
+                            <button type="button" class="btn btn-light" data-toggle="collapse"
+                                aria-expanded="false" aria-label="Toggle navigation">
                                 Sign In
                             </button>
                         </div>
@@ -48,6 +55,12 @@
             </div>
         </div>
     </header>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

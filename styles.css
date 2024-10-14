@@ -7,9 +7,9 @@
     height: auto;
     }
 
-.navbar-logo img {
-    width: 100px;
-    height: 100px;
+img {
+    max-width: 150px;
+    max-height: 150px;
     z-index: 0;
 }
 
@@ -30,9 +30,11 @@
     list-style-type: none;
 }
 #sign-in-btn button{
-    border-radius: 1em;
+    border-radius: 1.5rem;
     color: black;
     background-color:red;
-    height: 30px;
-    
+    /* height: 40px; */
+    vertical-align: middle;
+    padding:5px 25px;
+    font-weight: bold;
 }

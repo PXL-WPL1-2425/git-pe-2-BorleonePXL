@@ -5,7 +5,7 @@
     z-index: -100;
     width: 100%;
     height: auto;
-    }
+}
 
 img {
     max-width: 150px;
@@ -17,24 +17,23 @@ img {
     display: inline-block;
 }
 
-.ul li {
-    width: 33%;
-    float: center;
-}
-
-.container {
-    z-index: 1;
-}
-
 .navbar-buttons li {
     list-style-type: none;
 }
-#sign-in-btn button{
+
+#sign-in-btn button {
     border-radius: 1.5rem;
     color: black;
-    background-color:red;
-    /* height: 40px; */
-    vertical-align: middle;
-    padding:5px 25px;
+    background-color: red;
+    padding: 10px 20px;
     font-weight: bold;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#sign-in-btn button:hover {
+    background-color: darkred;
+    color: white;
 }
